@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.projectKey=Analisis" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_6cd8106ab870e6b0d8424a7e5da4b73a3895f2d7"
