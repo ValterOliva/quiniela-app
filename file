@@ -1,0 +1,11 @@
+odo {
+  etapa('SCM') {
+    pago scm
+  }
+  stage('Análisis de SonarQube') {
+    def scannerHome = herramienta 'Scaner';
+    conSonarQubeEnv() {
+      sh "${scannerHome}/bin/sonar-scanner"
+    }
+  }
+}
